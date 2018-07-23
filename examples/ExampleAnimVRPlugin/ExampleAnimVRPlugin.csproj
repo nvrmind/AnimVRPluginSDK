@@ -33,6 +33,9 @@
     <Reference Include="AnimVRPluginSDK">
       <HintPath>..\..\assemblies\AnimVRPluginSDK.dll</HintPath>
     </Reference>
+    <Reference Include="FlatBuffers">
+      <HintPath>..\..\assemblies\FlatBuffers.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +47,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anim_data.cs" />
+    <Compile Include="Flatbuffers.cs" />
     <Compile Include="ObjSequenceImporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
