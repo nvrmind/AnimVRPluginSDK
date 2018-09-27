@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="anim_data.cs" />
+    <Compile Include="BasicImportExport.cs" />
     <Compile Include="Flatbuffers.cs" />
     <Compile Include="ObjSequenceImporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
